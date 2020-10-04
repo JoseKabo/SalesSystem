@@ -19,7 +19,7 @@ namespace SalesSystem.Areas.Users.Models
 
         [Required(ErrorMessage = "El campo es obligatorio")]
         [DataType(DataType.PhoneNumber)]
-        [RegularExpression(@"^\(?([0-9]{2})\)?[-. ]?([0-9]{2}[-. ]?([0-9]{5})$",ErrorMessage ="<font color ='red'>Numero invalido</font color>")]
+        //[RegularExpression(@"^\(?([0-9]{2})\)?[-. ]?([0-9]{2}[-. ]?([0-9]{5})$",ErrorMessage ="<font color ='red'>Numero invalido</font color>")]
         public string PhoneNumber { get; set; }
 
         [Required(ErrorMessage = "El campo es obligatorio")]
